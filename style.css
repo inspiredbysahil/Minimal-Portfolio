@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #1b2638;
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  color: #38bdf8;
+  /* font-family: "Rock Salt", cursive; */
+  font-family: "Bitcount Prop Single", system-ui;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+.header p {
+  color: rgb(194, 194, 194);
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 1rem;
+  word-spacing: 3px;
+  font-weight: 500;
+}
+.header nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header nav a {
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  background: #2e3947;
+  font-weight: 600;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 16px;
+}
+.header nav a:hover {
+  background: #0284c7;
+  box-shadow: 0px 0px 100px #cfe7ff;
+  border: 1px solid #c9e4ff;
+  transition: all 300ms;
+}
+
+html {
+  background: #eef2f6;
+}
+#aboutme {
+  margin: 40px 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #ffffff;
+}
+#aboutme h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: 1px;
+}
+#aboutme img {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#aboutme figcaption {
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+  color: rgb(104, 104, 104);
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+#aboutme p {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #334155;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #d6ebff;
+}
+#aboutme p:hover {
+  box-shadow: 0px 10px 30px #cfe7ff;
+  border: 1px solid #c9e4ff;
+}
+#aboutme p strong {
+  color: #38bdf8;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+#aboutme p em {
+  color: #38bdf8;
+}
+
+#myproject {
+  margin: 40px 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+#myproject h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.project {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.project article {
+  border: 1px solid #dbedff;
+  flex: 1;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+.project article h3 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 15px;
+  text-align: left;
+}
+.project article p {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  color: #646464;
+  padding: 15px;
+}
+
+.project article a {
+  /* border: 1px solid black; */
+  padding: 13px 18px;
+  display: inline-block;
+  margin: 10px 0px;
+  border-radius: 10px;
+  background: #0284c7;
+  font-family: "Sour Gummy", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.project article:hover {
+  box-shadow: 0px 10px 30px #cfe7ff;
+  border: 1px solid #c9e4ff;
+}
+.project article a:hover {
+  color: #0284c7;
+  background: white;
+  box-shadow: 0px 10px 30px #cfe7ff;
+  border: 1px solid #c9e4ff;
+}
+#skill ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#skill {
+  border: 1px solid #c9e4ff;
+  border-radius: 10px;
+  padding: 10px;
+  background: #f8fafc;
+}
+#skill:hover {
+  box-shadow: 0px 10px 30px #cfe7ff;
+  border: 1px solid #c9e4ff;
+}
+#skill h3 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+#skill ul li {
+  border: 1px solid #b7dbff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background: #e0f2fe;
+  color: #0284c7;
+  font-family: "Oswald", sans-serif;
+}
+
+#skill ul li:hover {
+  color: white;
+  background: #0284c7;
+}
+#Contact {
+  margin: 40px 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+#Contact h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+#Contact video {
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+#Contact video:hover {
+  box-shadow: 0px 10px 30px #81c0ff;
+  border: 1px solid #c9e4ff;
+}
+
+footer {
+  margin: 40px 250px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #131b2e;
+}
+footer h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: 1px;
+  color: white;
+}
+footer p:first-of-type {
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+}
+footer .phone {
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+}
